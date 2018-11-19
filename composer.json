@@ -1,0 +1,27 @@
+{
+  "name": "hillpy/phptools",
+  "description": "A common library of function tools for PHP. 一个PHP的常用函数工具库",
+  "keywords": ["phptools", "函数工具库"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shinn_lancelot",
+      "email": "945226793@qq.com",
+      "homepage": "https://hillpy.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "support": {
+    "issues": "https://github.com/hillpy/phptools/issues"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "hillpy\\phptools\\": "src/"
+    }
+  }
+}
