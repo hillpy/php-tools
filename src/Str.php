@@ -2,7 +2,7 @@
 
 namespace hillpy\phptools;
 
-class String extends Base
+class Str
 {
     /**
      * 获取字符串

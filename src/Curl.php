@@ -2,8 +2,13 @@
 
 namespace hillpy\phptools;
 
-class Curl extends Base
+class Curl
 {
+    /**
+     * 简易get请求
+     * @param $url
+     * @return mixed
+     */
     public static function get($url)
     {
         $curl = curl_init();
