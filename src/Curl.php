@@ -14,7 +14,7 @@ class Curl
         $curl = curl_init();
         $optionArr = array(
             CURLOPT_URL=>$url,
-            CURLOPT_HEADER=>true,
+            CURLOPT_HEADER=>false,
             CURLOPT_RETURNTRANSFER=>true
         );
         curl_setopt_array($curl, $optionArr);
