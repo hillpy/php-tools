@@ -7,9 +7,17 @@ class CurlTest extends TestCase
 {
     public function testGet()
     {
-        $url = "https://www.baidu.com";
+        $url = 'https://www.baidu.com';
         $res = Curl::get($url);
-        $arr = json_decode($res, true);
-        var_dump($arr);
+        var_dump($res);
+    }
+
+    public function testPost()
+    {
+        $url = '';
+        $dataArr[''] = '';
+        $res = Curl::post($url, json_encode($dataArr));
+        $resArr = json_decode($res, true);
+        var_dump($resArr);
     }
 }
