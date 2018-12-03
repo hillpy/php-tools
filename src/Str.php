@@ -6,7 +6,9 @@ class Str
 {
     /**
      * 获取字符串
+     * @param int $type
      * @param int $length
+     * @return string
      */
     public static function getNonce($type = 1, $length = 16)
     {
