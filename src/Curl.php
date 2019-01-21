@@ -13,9 +13,9 @@ class Curl
     {
         $curl = curl_init();
         $optionArr = array(
-            CURLOPT_URL=>$url,
-            CURLOPT_HEADER=>false,
-            CURLOPT_RETURNTRANSFER=>true
+            CURLOPT_URL => $url,
+            CURLOPT_HEADER => false,
+            CURLOPT_RETURNTRANSFER => true
         );
         curl_setopt_array($curl, $optionArr);
         $res = curl_exec($curl);
@@ -33,11 +33,11 @@ class Curl
     {
         $curl = curl_init();
         $optionArr = array(
-            CURLOPT_URL=>$url,
-            CURLOPT_HEADER=>false,
-            CURLOPT_RETURNTRANSFER=>true,
-            CURLOPT_POST=>true,
-            CURLOPT_POSTFIELDS=>$data
+            CURLOPT_URL => $url,
+            CURLOPT_HEADER => false,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => $data
         );
         curl_setopt_array($curl, $optionArr);
         $res = curl_exec($curl);

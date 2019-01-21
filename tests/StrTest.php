@@ -5,14 +5,19 @@ use hillpy\phptools\Str;
 
 class StrTest extends TestCase
 {
-    public function testGetStr()
+    public function testGetNonce()
     {
+        var_dump('=====================');
         for ($i = 0; $i < 100; $i++) {
             $nonce = Str::getNonce();
             var_dump($nonce);
+        }
+    }
 
-            var_dump('======================');
-
+    public function testGetNonceByURandom()
+    {
+        var_dump('=====================');
+        for ($i = 0; $i < 100; $i++) {
             $nonce = Str::getNonceByURandom();
             var_dump($nonce);
         }
