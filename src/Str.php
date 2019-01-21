@@ -31,4 +31,25 @@ class Str
         }
         return $nonce;
     }
+
+    /**
+     * 根据URandom获取字符串
+     * @param int $length
+     * @return bool|string
+     */
+    public static function getNonceByURandom($length = 16)
+    {
+        $nonce = '';
+        $binary = '';
+        $fp = @fopen('/dev/urandom', 'rb');
+        if ($fp !== false) {
+            $binary .= @fread($fp, $length);
+            @fclose($fp);
+        } else {
+            trigger_error('Can not open /dev/urandom.');
+        }
+        $string = base64_encode($binary);
+        $nonce = substr($string, 0, $length);
+        return $nonce;
+    }
 }

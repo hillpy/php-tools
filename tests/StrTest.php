@@ -10,6 +10,11 @@ class StrTest extends TestCase
         for ($i = 0; $i < 100; $i++) {
             $nonce = Str::getNonce();
             var_dump($nonce);
+
+            var_dump('======================');
+
+            $nonce = Str::getNonceByURandom();
+            var_dump($nonce);
         }
     }
 }
