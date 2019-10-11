@@ -10,16 +10,18 @@ Currently under development
 
 2. 判断数据类型函数
 
+3. 抽奖类
+
 ### Run
 
 * 安装开发环境依赖
 
 ```shell
-  composer install
+  $ composer install
 ```
 
 * 执行测试（以测试Str.php为例）
 
 ```shell
-  ./vendor/bin/phpunit tests/StrTest.php
+  $ ./vendor/bin/phpunit tests/StrTest.php
 ```
