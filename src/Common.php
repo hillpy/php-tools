@@ -16,4 +16,24 @@ class Common
             return false;
         }
     }
+
+    /**
+     * 更新原数组的数据（仅更新原数组已有的键）
+     * @param $rawData
+     * @param $newData
+     * @return array
+     */
+    public static function updateArrayData($rawData, $newData)
+    {
+        if (!is_array($rawData) || count($rawData) <= 0) {
+            return array();
+        }
+        if (!is_array($newData)) {
+            return $rawData;
+        }
+        foreach ($rawData as $key => $value) {
+            isset($newData[$key]) && $rawData[$key] = $newData[$key];
+        }
+        return $rawData;
+    }
 }
