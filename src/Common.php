@@ -32,7 +32,13 @@ class Common
             return $rawData;
         }
         foreach ($rawData as $key => $value) {
-            isset($newData[$key]) && $rawData[$key] = $newData[$key];
+            if (isset($newData[$key])) {
+                if (is_array($value)) {
+                    $rawData[$key] = self::updateArrayData($rawData[$key], $newData[$key]);
+                } else {
+                    $rawData[$key] = $newData[$key];
+                }
+            }
         }
         return $rawData;
     }

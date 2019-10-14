@@ -1,13 +1,13 @@
 {
   "name": "hillpy/phptools",
-  "description": "A common library of function tools for PHP. 一个PHP的常用函数工具库",
-  "keywords": ["phptools", "函数工具库"],
+  "description": "A php tool library. 一个php工具库。",
+  "keywords": ["phptools", "工具库"],
   "type": "library",
   "license": "MIT",
   "authors": [
     {
       "name": "shinn_lancelot",
-      "email": "945226793@qq.com",
+      "email": "lanhaichun0317@gmail.com",
       "homepage": "https://hillpy.com",
       "role": "Developer"
     }
