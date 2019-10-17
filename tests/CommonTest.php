@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use hillpy\phptools\Common;
+use Hillpy\PHPTools\Common;
 
 class CommonTest extends TestCase
 {

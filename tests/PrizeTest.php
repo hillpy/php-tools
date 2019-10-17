@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use hillpy\phptools\Prize;
+use Hillpy\PHPTools\Prize;
 
 class PrizeTest extends TestCase
 {

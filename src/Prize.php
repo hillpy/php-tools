@@ -1,7 +1,7 @@
 <?php
 
-namespace hillpy\phptools;
-include "Common.php";
+namespace Hillpy\PHPTools;
+use Hillpy\PHPTools\Common;
 
 class Prize
 {

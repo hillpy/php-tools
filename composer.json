@@ -1,5 +1,5 @@
 {
-  "name": "hillpy/phptools",
+  "name": "hillpy/php-tools",
   "description": "A php tool library. 一个php工具库。",
   "keywords": ["phptools", "工具库"],
   "type": "library",
@@ -16,12 +16,12 @@
     "php": ">=5.3.0"
   },
   "support": {
-    "issues": "https://github.com/hillpy/phptools/issues"
+    "issues": "https://github.com/hillpy/php-tools/issues"
   },
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "hillpy\\phptools\\": "src/"
+      "Hillpy\\PHPTools\\": "src/"
     }
   },
   "require-dev": {

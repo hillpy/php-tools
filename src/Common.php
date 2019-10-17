@@ -1,6 +1,6 @@
 <?php
 
-namespace hillpy\phptools;
+namespace Hillpy\PHPTools;
 
 class Common
 {
