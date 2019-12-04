@@ -2,10 +2,15 @@
 
 namespace Hillpy\PHPTools;
 
+/**
+ * Class Common
+ * @package Hillpy\PHPTools
+ */
 class Common
 {
     /**
      * 是否为windows系统
+     *
      * @return bool
      */
     public static function isWin()
@@ -19,6 +24,7 @@ class Common
 
     /**
      * 更新原数组的数据（仅更新原数组已有的键）
+     *
      * @param $rawData
      * @param $newData
      * @return array

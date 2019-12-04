@@ -2,10 +2,15 @@
 
 namespace Hillpy\PHPTools;
 
+/**
+ * Class Str
+ * @package Hillpy\PHPTools
+ */
 class Str
 {
     /**
      * 获取字符串
+     *
      * @param int $type
      * @param int $length
      * @return string
@@ -34,6 +39,7 @@ class Str
 
     /**
      * 根据URandom获取字符串
+     * 
      * @param int $length
      * @return bool|string
      */

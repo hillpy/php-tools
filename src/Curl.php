@@ -2,10 +2,15 @@
 
 namespace Hillpy\PHPTools;
 
+/**
+ * Class Curl
+ * @package Hillpy\PHPTools
+ */
 class Curl
 {
     /**
      * 简易get请求
+     *
      * @param $url
      * @return mixed
      */
