@@ -147,7 +147,7 @@ class Prize
         if ($this->type === 'box') {
             $box = $this->beforePrize();
             shuffle($box);
-            $boxKey =array_rand($box, isset($this->config['get_num']) ? $this->config['get_num'] : self::GET_NUM);
+            $boxKey = array_rand($box, isset($this->config['get_num']) ? $this->config['get_num'] : self::GET_NUM);
 
             $res = array();
             if (is_array($boxKey)) {
@@ -187,7 +187,7 @@ class Prize
                     $arr['name'] = $this->data[$dataKey]['name'];
                     $arr['amount'] = $this->data[$dataKey]['amount'];
                     $arr['_amount'] = $this->data[$dataKey]['_amount'];
-                  
+
                 } else {
                     $arr['key'] = -1;
                     $arr['name'] = '';
