@@ -2,8 +2,6 @@
 
 namespace Hillpy\PHPTools;
 
-include "Common.php";
-
 /**
  * Class Prize
  * @package Hillpy\PHPTools
@@ -187,7 +185,6 @@ class Prize
                     $arr['name'] = $this->data[$dataKey]['name'];
                     $arr['amount'] = $this->data[$dataKey]['amount'];
                     $arr['_amount'] = $this->data[$dataKey]['_amount'];
-
                 } else {
                     $arr['key'] = -1;
                     $arr['name'] = '';
