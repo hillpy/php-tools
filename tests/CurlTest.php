@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Hillpy\PHPTools\Curl;
+use Hillpy\PHPTools\Curl\Curl;
 
 class CurlTest extends TestCase
 {

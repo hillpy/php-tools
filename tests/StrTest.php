@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Hillpy\PHPTools\Str;
+use Hillpy\PHPTools\Str\Str;
 
 class StrTest extends TestCase
 {

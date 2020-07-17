@@ -1,11 +1,9 @@
 <?php
 
-namespace Hillpy\PHPTools;
+namespace Hillpy\PHPTools\Prize;
 
-/**
- * Class Prize
- * @package Hillpy\PHPTools
- */
+use Hillpy\PHPTools\Common\Common;
+
 class Prize
 {
     // 抽奖球总数

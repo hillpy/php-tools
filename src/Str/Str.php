@@ -1,11 +1,7 @@
 <?php
 
-namespace Hillpy\PHPTools;
+namespace Hillpy\PHPTools\Str;
 
-/**
- * Class Str
- * @package Hillpy\PHPTools
- */
 class Str
 {
     /**
